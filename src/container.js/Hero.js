@@ -4,6 +4,7 @@ import CountdownApp from '../components/CountdownApp';
 import CountdownTimer from '../components/CountdownTimer'
 import Construction from './Construction';
 
+
 const Hero = () => {
     const THREE_DAYS_IN_MS = 30 * 24 * 60 * 60 * 1000
 
