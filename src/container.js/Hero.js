@@ -6,9 +6,14 @@ import Construction from './Construction';
 
 
 const Hero = () => {
-    const THREE_DAYS_IN_MS = 30 * 24 * 60 * 60 * 1000
+    const seconds = 1000;
+    const minutes = seconds * 60;
+    const hour = minutes * 60;
+    const days = hour * 24
+    
+    const THREE_DAYS_IN_MS = 30 * days
 
-    const NOW_IN_MS = new Date().getTime();
+    const NOW_IN_MS = 1660730070000;
 
     const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
     return (
