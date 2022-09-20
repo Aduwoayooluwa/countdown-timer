@@ -10,7 +10,7 @@ const Main = () => {
 
     
 
-    // const THREE_DAYS_IN_MS = 30 * days
+    // const THREE_DAYS_IN_MS = 30 * days in ie
 
     // const NOW_IN_MS = new Date();
 
